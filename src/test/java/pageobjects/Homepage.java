@@ -1,11 +1,15 @@
 package pageobjects;
 
+import javax.lang.model.element.Element;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import utility.Elementvalidation;
 
 public class Homepage {
 	
@@ -24,6 +28,7 @@ public class Homepage {
 	}
 	
 	public void validateHomepage() {
+		Elementvalidation.elemntVisibility(driver,driver.findElement(fullname));
 		driver.findElement(fullname).sendKeys("Mayank Choubey");
 		driver.findElement(email).sendKeys("mayank@gmail.com");
 		driver.findElement(curraddress).sendKeys("Mayank Choubey");

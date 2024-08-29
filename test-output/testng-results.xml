@@ -2,19 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T15:45:18 IST" name="Default suite" finished-at="2024-08-29T15:45:50 IST" duration-ms="31673">
+  <suite started-at="2024-08-29T16:39:37 IST" name="Default suite" finished-at="2024-08-29T16:39:59 IST" duration-ms="22094">
     <groups>
     </groups>
-    <test started-at="2024-08-29T15:45:18 IST" name="Default test" finished-at="2024-08-29T15:45:50 IST" duration-ms="31673">
+    <test started-at="2024-08-29T16:39:37 IST" name="Default test" finished-at="2024-08-29T16:39:59 IST" duration-ms="22094">
       <class name="steps.Homepagestep">
-        <test-method is-config="true" signature="setup()[pri:0, instance:steps.Homepagestep@67f639d3]" started-at="2024-08-29T15:45:18 IST" name="setup" finished-at="2024-08-29T15:45:49 IST" duration-ms="30576" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:steps.Homepagestep@49049a04]" started-at="2024-08-29T16:39:37 IST" name="setup" finished-at="2024-08-29T16:39:57 IST" duration-ms="20085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyText()[pri:0, instance:steps.Homepagestep@67f639d3]" started-at="2024-08-29T15:45:49 IST" name="verifyText" finished-at="2024-08-29T15:45:50 IST" duration-ms="979" status="PASS">
+        <test-method signature="verifyText()[pri:0, instance:steps.Homepagestep@49049a04]" started-at="2024-08-29T16:39:57 IST" name="verifyText" finished-at="2024-08-29T16:39:58 IST" duration-ms="1210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:steps.Homepagestep@49049a04]" started-at="2024-08-29T16:39:58 IST" name="tearDown" finished-at="2024-08-29T16:39:59 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- steps.Homepagestep -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
